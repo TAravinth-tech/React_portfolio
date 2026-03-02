@@ -15,7 +15,6 @@ const testimonials = rows
   .map((cols) => ({
     name: cols[1]?.trim() || "",
     email: cols[2]?.trim() || "",
-    linkedin: cols[3]?.trim() || "#",
     college: cols[4]?.trim() || "",
     review: cols[5]?.trim() || ""
   }));
@@ -51,14 +50,7 @@ const testimonials = rows
             📧 {t.email}
           </p>
 
-          <a
-            href={t.linkedin}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="text-sm text-blue-500 hover:underline"
-          >
-            🔗 LinkedIn Profile
-          </a>
+          
 
         </div>
       ))}
