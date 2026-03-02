@@ -51,14 +51,16 @@ const testimonials = rows
             📧 {t.email}
           </p>
 
-          <a
-            href={t.linkedin}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="text-sm text-blue-500 hover:underline"
-          >
-            🔗 LinkedIn Profile
-          </a>
+          {t.linkedin && (
+            <a
+              href={t.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-sm text-blue-500 hover:underline"
+            >
+              🔗 LinkedIn Profile
+            </a>
+          )}
 
         </div>
       ))}
