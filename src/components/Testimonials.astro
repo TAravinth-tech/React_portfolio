@@ -5,17 +5,15 @@ const response = await fetch(
 
 const csvText = await response.text();
 
-// split rows
 const rows = csvText.split("\n").slice(1);
 
-// convert to objects
 const testimonials = rows
   .map((row) => row.split(","))
-  .filter((row) => row.length >= 6 && row[1]) // remove empty rows
+  .filter((row) => row.length >= 6 && row[1])
   .map((cols) => ({
     name: cols[1]?.trim() || "",
     email: cols[2]?.trim() || "",
-    linkedin: cols[3]?.trim() || "#",
+    linkedin: cols[3]?.trim() || "",
     college: cols[4]?.trim() || "",
     review: cols[5]?.trim() || ""
   }));
@@ -35,22 +33,31 @@ const testimonials = rows
       {testimonials.map((t) => (
         <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-6 hover:shadow-md transition">
 
+          {/* Review */}
           <p class="text-gray-600 mb-4 italic">
             "{t.review}"
           </p>
 
+          {/* Name */}
           <h3 class="font-semibold text-lg text-gray-900 mb-2">
             {t.name}
           </h3>
 
-          <p class="text-sm text-gray-500 mb-1">
-            🎓 {t.college}
-          </p>
+          {/* College */}
+          {t.college && (
+            <p class="text-sm text-gray-500 mb-1">
+              🎓 {t.college}
+            </p>
+          )}
 
-          <p class="text-sm text-gray-500 mb-2">
-            📧 {t.email}
-          </p>
+          {/* Email */}
+          {t.email && (
+            <p class="text-sm text-gray-500 mb-2">
+              📧 {t.email}
+            </p>
+          )}
 
+          {/* LinkedIn (hidden if empty) */}
           {t.linkedin && (
             <a
               href={t.linkedin}
