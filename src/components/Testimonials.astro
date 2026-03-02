@@ -4,6 +4,7 @@ const response = await fetch(
 
 const csvText = await response.text();
 
+
 // split rows
 const rows = csvText.split("\n").slice(1);
 
