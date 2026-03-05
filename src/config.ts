@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Aravinth T",
   title: "Full Stack Web Developer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  description: "Portfolio website of Aravinth T",
   accentColor: "#4361EE",
   social: {
     email: "aravintht721@gmail.com",
@@ -72,6 +72,14 @@ export const siteConfig = {
     
   ],
   experience: [
+    {
+      company: "Maventricks Technologies private limited",
+      title: "PHP developer",
+      dateRange: "Dec 2025 - Present ",
+      bullets: [
+        "Currently working as a PHP full stack developer at Maventricks Technologies private limited, I learned about CodeIgniter4 and Laravel to build the backend and its value,then I worked in their own web product and provided valued content for the site.",
+      ],
+    },
     {
       company: "Victopia labs private limited",
       title: "Full stack developer",
