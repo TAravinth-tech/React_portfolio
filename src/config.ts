@@ -74,7 +74,7 @@ export const siteConfig = {
   experience: [
     {
       company: "Maventricks Technologies private limited",
-      title: "PHP developer",
+      title: "PHP Developer",
       dateRange: "Dec 2025 - Present ",
       bullets: [
         "Currently working as a PHP full stack developer at Maventricks Technologies private limited, I learned about CodeIgniter4 and Laravel to build the backend and its value,then I worked in their own web product and provided valued content for the site.",
@@ -82,7 +82,7 @@ export const siteConfig = {
     },
     {
       company: "Victopia labs private limited",
-      title: "Full stack developer",
+      title: "Full Stack Developer",
       dateRange: "May 2025 - july 2025",
       bullets: [
         "During my internship at Victopia labs, I learned about Python(Django) to build the backend and its value,then I worked in their own web product and provided valued content for the site.",
@@ -98,7 +98,7 @@ export const siteConfig = {
     },
     {
       company: "NextGen Cloud Pro Learning Hub",
-      title: "Cloud computing intern",
+      title: "Cloud Computing Intern",
       dateRange: "Sep 2024 - Oct 2024",
       bullets: [
         "During my internship at NextGen Cloud Pro Learning Hub, I learned about Cloud computing to build the websites and deploy it into the webserver through GCP Ubuntu Linux.",
