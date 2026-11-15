@@ -114,7 +114,7 @@ export const siteConfig = {
       title: "Full stack Developer",
       dateRange: "June 2026 - Present ",
       bullets: [
-        "Currently working as a **Full Stack Developer at CS Info Tech Technologies Private Limited**, where I have gained hands-on experience with **CodeIgniter 4 and Laravel** for backend development and application management. I also work with **React.js** to develop dynamic, responsive, and user-friendly web applications. Experienced in creating interactive, animation-based websites using **Three.js**, developing complex CRM applications, and building fully customized e-commerce and blog platforms. Additionally, I have contributed to the company's web products by developing features, improving functionality, and creating valuable website content. I also work as a **Full Stack Developer Trainer**, training and mentoring intern students in frontend and backend development.",
+        "Currently working as a Full Stack Developer at CS Info Tech Technologies Private Limited, where I have gained hands-on experience with CodeIgniter 4 and Laravel for backend development and application management. I also work with React to develop dynamic, responsive, and user-friendly web applications. Experienced in creating interactive, animation-based websites using Three.js, developing complex CRM applications, and building fully customized e-commerce and blog platforms. Additionally, I have contributed to the company's web products by developing features, improving functionality, and creating valuable website content. I also work as a Full Stack Developer Trainer, training and mentoring intern students in frontend and backend development.",
       ],
     },
     {
