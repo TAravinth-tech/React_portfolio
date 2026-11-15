@@ -53,13 +53,6 @@ export const siteConfig = {
       skills: ["Wordpress","Woocommerce"],
     },
 
-
-
-
-
-
-
-
     {
       name: "Cake Heist Website",
       description:
@@ -68,16 +61,60 @@ export const siteConfig = {
       skills: ["Wordpress","Woocommerce"],
     },
 
+    {
+      name: "Glory Energy Pack",
+      description:
+        "Glory Energy Pack is an e-commerce platform featuring a wide range of food products, including traditional sweets, nuts, dry fruits, and healthy snacks. The website includes dynamic product listings, category-based navigation, product search and filtering, shopping cart management, pricing and discount displays, product availability tracking, and WhatsApp-based ordering, providing customers with a simple and convenient online shopping experience.",
+      link: "https://gloryenergypack.com/",
+      skills: ["HTML","CSS","React","Bootstrap" ,"PHP","Mysql"],
+    },
 
+
+ {
+      name: "Job Portal Application",
+      description:
+        "Developed a student-exclusive job portal for an IT institute to help students explore job opportunities and interview notifications. The platform includes secure student login and registration with ID-based access control, ensuring only authorized institute students can access the portal. It provides job listings, company details, job descriptions, interview schedules, and application-related information, making it easier for students to discover opportunities and stay updated on recruitment activities.",
+      link: "https://placements.wininstitutes.com/",
+      skills: ["HTML","CSS","React","Bootstrap" ,"PHP","Mysql"],
+    },
+
+    
+
+     {
+      name: "Rajan Cars Website",
+      description:
+        "Rajan Cars is a used-car marketplace website designed to showcase a wide range of pre-owned vehicles with detailed information to help customers find their preferred cars. The platform provides vehicle listings with images, pricing, specifications, and other important details, along with car search and filtering options. It also helps customers explore available vehicles, compare options, and contact the dealership for buying and selling enquiries, providing a simple and user-friendly car browsing experience.",
+      link: "https://www.rajancars.com/",
+      skills: ["HTML","CSS","React","Bootstrap"],
+    },
+    
+
+{
+      name: "Madurai Jashwitha Travels",
+      description:
+        "Rajan Cars is a used-car marketplace website designed to showcase a wide range of pre-owned vehicles with detailed information to help customers find their preferred cars. The platform provides vehicle listings with images, pricing, specifications, and other important details, along with car search and filtering options. It also helps customers explore available vehicles, compare options, and contact the dealership for buying and selling enquiries, providing a simple and user-friendly car browsing experience.",
+      link: "https://www.maduraijashwithatravels.com/",
+      skills: ["HTML","CSS","React","Bootstrap"],
+    },
+
+    {
+      name: "CRM Application",
+      description:
+        "Developed an in-house CRM application for an IT institute to manage student admissions and administrative operations. The system includes student enquiry management, admission records, personal details, fee payment tracking, birthday updates, EMI-based filtering, and payment status monitoring. Designed to simplify internal institute management and improve student record handling and daily administrative workflows.",
+      link: "",
+      skills: ["HTML","CSS","React","Bootstrap" ,"PHP","Mysql"],
+    },
+
+    
     
   ],
   experience: [
     {
-      company: "Maventricks Technologies private limited",
-      title: "PHP Developer",
-      dateRange: "Dec 2025 - Present ",
+      company: "Cs Info tech private limited",
+      title: "Full stack Developer",
+      dateRange: "June 2026 - Present ",
       bullets: [
-        "Currently working as a PHP full stack developer at Maventricks Technologies private limited, I learned about CodeIgniter4 and Laravel to build the backend and its value,then I worked in their own web product and provided valued content for the site.",
+        "Currently working as a **Full Stack Developer at CS Info Tech Technologies Private Limited**, where I have gained hands-on experience with **CodeIgniter 4 and Laravel** for backend development and application management. I also work with **React.js** to develop dynamic, responsive, and user-friendly web applications. Experienced in creating interactive, animation-based websites using **Three.js**, developing complex CRM applications, and building fully customized e-commerce and blog platforms. Additionally, I have contributed to the company's web products by developing features, improving functionality, and creating valuable website content. I also work as a **Full Stack Developer Trainer**, training and mentoring intern students in frontend and backend development.",
       ],
     },
     {
