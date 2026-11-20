@@ -45,21 +45,7 @@ export const siteConfig = {
       skills: ["GCP", "Linux","Core PHP", "HTML", "CSS" , "JS" , "Bootstrap" , "Jquery" , "Ajax","Mysql"],
     },
 
-    {
-      name: "Arudhras jewels Website",
-      description:
-        "At Arudhras Jewellery, they provides blend exquisite craftsmanship with premium materials to create stunning pieces that last a lifetime and their dedication to detail ensures that every jewel is a masterpiece of elegance and enduring beauty.",
-      link: "https://arudhrasjewels.com/",
-      skills: ["Wordpress","Woocommerce"],
-    },
-
-    {
-      name: "Cake Heist Website",
-      description:
-        "At Cakeheist, quality is top priority. Every item is crafted with the finest, fresh ingredients, ensuring a light, moist, and flavorful experience with every single bite. their pride ourselves on attention to detail and delivering exceptional products that bring joy and a smile to our customers' faces. they're not just serving desserts we're crafting unforgettable experiences, one slice at a time.",
-      link: "https://cakeheist.in/",
-      skills: ["Wordpress","Woocommerce"],
-    },
+   
 
     {
       name: "Glory Energy Pack",
@@ -69,6 +55,21 @@ export const siteConfig = {
       skills: ["HTML","CSS","React","Bootstrap" ,"PHP","Mysql"],
     },
 
+{
+  name: "JPS Bricks & Blocks",
+  description:
+    "JPS Bricks & Blocks is a business website showcasing a range of construction materials, including solid concrete blocks, hollow blocks, paver blocks, and other building products. The website features product listings, detailed product descriptions, product images, company information, project galleries, and contact enquiry options, helping customers explore construction products and connect with the manufacturer for their building requirements.",
+  link: "https://jpsbricks.com/",
+  skills: ["HTML", "CSS", "JavaScript", "Three.js","React", "Bootstrap"]
+},
+
+    {
+  name: "INDUS Project Operations",
+  description:
+    "INDUS Project Operations is a professional Remote Project Management Office (PMO) platform providing project management and project control services for construction and infrastructure industries. The website showcases services including project planning and scheduling, cost management, project progress tracking, risk management, documentation management, and performance monitoring. It features interactive management dashboards, project performance analytics, KPI tracking, service-based navigation, enquiry forms, and responsive layouts, helping construction companies manage projects efficiently and improve decision-making through data-driven insights.",
+  link: "https://induspmo.com/",
+  skills: ["HTML", "CSS", "JavaScript", "Bootstrap"]
+},
 
  {
       name: "Job Portal Application",
@@ -97,6 +98,10 @@ export const siteConfig = {
       skills: ["HTML","CSS","React","Bootstrap"],
     },
 
+
+
+
+    
     {
       name: "CRM Application",
       description:
@@ -104,6 +109,23 @@ export const siteConfig = {
       link: "",
       skills: ["HTML","CSS","React","Bootstrap" ,"PHP","Mysql"],
     },
+
+
+     {
+      name: "Arudhras jewels Website",
+      description:
+        "At Arudhras Jewellery, they provides blend exquisite craftsmanship with premium materials to create stunning pieces that last a lifetime and their dedication to detail ensures that every jewel is a masterpiece of elegance and enduring beauty.",
+      link: "https://arudhrasjewels.com/",
+      skills: ["Wordpress","Woocommerce"],
+    },
+
+    {
+      name: "Cake Heist Website",
+      description:
+        "At Cakeheist, quality is top priority. Every item is crafted with the finest, fresh ingredients, ensuring a light, moist, and flavorful experience with every single bite. their pride ourselves on attention to detail and delivering exceptional products that bring joy and a smile to our customers' faces. they're not just serving desserts we're crafting unforgettable experiences, one slice at a time.",
+      link: "https://cakeheist.in/",
+      skills: ["Wordpress","Woocommerce"],
+    }
 
     
     
